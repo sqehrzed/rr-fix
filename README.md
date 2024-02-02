@@ -12,5 +12,5 @@ Or force reinstallation, select 'Force re-install DSM' from grub menu.
 Выполните следующую команду, чтобы восстановить js панели управления. После восстановления панель управления можно открыть. После перезагрузки новые аддоны cpuionfo вступят в силу.
 Или выполните принудительную переустановку, выбрав в меню grub пункт 'Force re-install DSM'.
 
-curl -kL https://github.com/sqehrzed/rr-fix/blob/main/admin_center.js.gz -o /usr/syno/synoman/webman/modules/AdminCenter/admin_center.js.gz
+curl -kL https://github.com/sqehrzed/rr-fix/raw/main/admin_center.js.gz -o /usr/syno/synoman/webman/modules/AdminCenter/admin_center.js.gz
 cp -f /usr/syno/synoman/webman/modules/AdminCenter/admin_center.js.gz /usr/syno/synoman/webman/modules/AdminCenter/admin_center.js.gz.bak
